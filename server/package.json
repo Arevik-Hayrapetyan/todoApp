@@ -1,0 +1,16 @@
+{
+    "name": "todo",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon  src/index.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "apollo-server-express": "^3.11.1",
+        "express": "^4.18.2",
+        "graphql": "^16.6.0",
+        "nodemon": "^2.0.20",
+        "prisma": "^4.7.1",
+        "save-dev": "^0.0.1-security"
+    }
+}
